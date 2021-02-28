@@ -19,7 +19,7 @@ local gpu = component.gpu
 
 --Initialize local variables
 local isAuto = true
-local enableSleep = true
+local enableSleep = false
 local chartMode = true --True is power mode while false is heat mode
 local x, y = 0, 0 --Initialize resolution components
 local buttonSize = 0 --Initialize buttonSize
